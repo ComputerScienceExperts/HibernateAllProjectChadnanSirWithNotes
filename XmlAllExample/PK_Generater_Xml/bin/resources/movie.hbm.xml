@@ -1,0 +1,14 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+    
+    <hibernate-mapping>
+    	<class name="com.beans.Movie" table="movie01" schema="hibernateorg">
+    		<id name="mid">
+    			<generator class="increment"/>
+    		</id>
+    		<property name="mname"/>
+    		<property name="mseatno"/>
+    		<property name="mtime"/>
+    	</class>
+    </hibernate-mapping>
